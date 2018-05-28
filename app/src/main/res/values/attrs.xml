@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="circleStyle">
+        <attr name="circleMargin" format="float"/>
+        <attr name="isReverse" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleBarView">
+        <attr name="progress_color" format="color"></attr>
+        <attr name="bg_color" format="color"></attr>
+        <attr name="bar_width" format="dimension"></attr>
+        <attr name="start_angle" format="float"></attr>
+        <attr name="sweep_angle" format="float"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="WaveButton">
+        <attr name="waveSrc" format="reference"/>
+        <attr name="waveColor" format="color"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="waveMaxRadius" format="dimension"/>
+        <attr name="waveMinRadius" format="dimension"/>
+    </declare-styleable>
+</resources>
